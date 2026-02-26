@@ -32,7 +32,7 @@ const env = {
   appSlug: "ai-photo-enhancer-pro",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/ZTico2fx7JifePTydZV3Ns/sandbox/vEXsmUB5IFtclinUVG8906-img-1_1772085802000_na1fn_aWNvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWlRpY28yZng3SmlmZVBUeWRaVjNOcy9zYW5kYm94L3ZFWHNtVUI1SUZ0Y2xpblVWRzg5MDYtaW1nLTFfMTc3MjA4NTgwMjAwMF9uYTFmbl9hV052YmcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ElQpdzr5yGmAGDM5hxVmhnuK2gOyn~fRFvzLoBZlu~qVzC4fkUxbluZycmxy9B5syYQwKTwYLpaPbLm0I083GtZz8GeFEuhwjIhdJMF6L0Cr4pmMlbCHFlXAqjAVXmm7cX0SrKAA9IlB87pQlfxq1DdbLipotZvA-KD4fyylJb~l4P6xILTLJ0FG0pNTdlrlK9UJ9cMQiyCQ3XWMRNIV7os-GYFJvGAvjHlUSWvPhmBM8vtsiXGpX--Ml5CLf-dH-D7G5Mzu~KlXhLLu28EFKSKRG0yBnNUvn54aESIGRzqoWbZvMj712Jo-FOMAdSWPgbEsstgA4DfjKCzyS4mCBA__",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
