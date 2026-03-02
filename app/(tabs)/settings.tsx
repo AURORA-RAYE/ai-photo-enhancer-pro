@@ -35,9 +35,13 @@ export default function SettingsScreen() {
   };
 
   const handleOpenURL = (url: string) => {
-    Linking.openURL(url).catch(() => {
+    try {
+      Linking.openURL(url).catch(() => {
+        alert("Unable to open URL");
+      });
+    } catch (error) {
       alert("Unable to open URL");
-    });
+    }
   };
 
   return (
